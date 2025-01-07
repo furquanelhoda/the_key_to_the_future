@@ -31,6 +31,37 @@
                 "قاعدة الحروف النورانية"
             ]
         },
+        "it": {
+            "title": "La chiave del futuro Furqan al-Huda",
+            "relative": "Relativo",
+            "furqan": "Siti del Furqan",
+            "tables": "Tabelle",
+            "tachfir": "Programmi di calcolo della crittografia",
+            "footer": "La chiave del futuro Furqan al-Huda. Tutti i diritti riservati",
+    
+            "furqan_links": [
+                "Furqan al-Huda - (1)",
+                "Furqan al-Huda - (2)",
+                "Furqan al-Huda - (3)",
+                "Furqan al-Huda - (4)",
+                "Furqan al-Huda - (5)",
+                "Furqan al-Huda - (6)",
+                "Furqan completo - 14 * 1",
+                "Furqan Alion - 14 * potenza"
+            ],
+            "tables_links": [
+                "Differenze tra versetti lettere parole",
+                "Differenze tra rapporti cumulativi: versetti lettere parole",
+                "Tabella dell'indice cumulativo del Corano",
+                "Tabella del download cumulativo del Corano",
+                "Differenze tra numero e rapporti versetti lettere parole"
+            ],
+            "tachfir_links": [
+                "Crittografia del Corano",
+                "Regola della Fatiha",
+                "Regola delle lettere luminose"
+            ]
+        },
         "fr": {
             "title": "La clé de l’avenir est Furqan Al-Huda",
             "relative": "La relativité",
@@ -123,4 +154,5 @@
             ]
         }
     }
+
 }
