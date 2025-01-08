@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الفرقان & النسبية & السبع المثاني</title>
-   
-    
+    <title>مفتاح المستقبل & فرقان الهدى</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-   <style>
+    <style>
         /* إعدادات عامة */
-        *{
+        * {
             text-align: center !important;
             text-justify: center !important;
+            box-sizing: border-box;
         }
+
         body {
             font-family: 'Traditional Arabic', Arial, sans-serif;
             direction: rtl;
@@ -43,12 +42,13 @@
             justify-content: center;
             gap: 15px;
             margin: 20px 0;
+            flex-wrap: wrap;
         }
 
         .lang-btn {
             cursor: pointer;
             padding: 10px 20px;
-            border: none;
+            border: 2px solid transparent;
             border-radius: 50px;
             background: rgba(255, 255, 255, 0.1);
             color: #fff;
@@ -56,7 +56,7 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            transition: background-color 0.3s ease, transform 0.2s ease;
+            transition: background-color 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
         }
 
         .lang-btn i {
@@ -66,11 +66,13 @@
         .lang-btn:hover {
             background-color: rgba(255, 255, 255, 0.3);
             transform: translateY(-3px);
+            border-color: #007bff;
         }
 
         .lang-btn.active {
             background-color: #007bff;
             color: #fff;
+            border-color: #007bff;
         }
 
         /* تصميم الحاويات المغلقة */
@@ -185,10 +187,46 @@
             transform: scale(1.2);
             color: #fff;
         }
+
+        /* التجاوب مع الأجهزة المختلفة */
+        @media (max-width: 768px) {
+            .lang-switcher {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .lang-btn {
+                width: 80%;
+                justify-content: center;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .box {
+                padding: 10px;
+            }
+
+            .box h2 {
+                font-size: 1.2rem;
+            }
+
+            .box ul a {
+                font-size: 0.9rem;
+            }
+
+            .footer .copyright {
+                font-size: 0.8rem;
+            }
+
+            .footer .social-media a {
+                font-size: 1.2rem;
+            }
+        }
     </style>
 </head>
 <body>
-  
     <!-- قائمة اللغات -->
     <div class="lang-switcher">
         <span data-translate="title">مفتاح المستقبل فرقان الهدى</span>
@@ -262,8 +300,8 @@
 
     <!-- الفوتر -->
     <div class="footer">
-        <div data-translate="footer" class="copyright" >
-            &copy; <span class="year"><script>document.write(new Date().getFullYear())</script></span > مفتاح المستقبل فرقان الهدى. جميع الحقوق محفوظة
+        <div data-translate="footer" class="copyright">
+            &copy; <span class="year"><script>document.write(new Date().getFullYear())</script></span> مفتاح المستقبل فرقان الهدى. جميع الحقوق محفوظة
         </div>
         <div class="social-media">
             <a href="https://www.youtube.com/@Zakkar-YAH" class="youtube" target="_blank"><i class="fab fa-youtube"></i></a>
